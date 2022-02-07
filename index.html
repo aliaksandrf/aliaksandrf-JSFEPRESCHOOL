@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="./assets/favicon.ico">
+    <title>Document</title>
+</head>
+<body class="body-class">
+    <header class="header">
+        <div class="header wrapper">
+            <div>
+                <svg class="logo-icon" data-bird="zarynka">
+                    <use xlink:href="./assets/svg/sprite.svg#logo"></use>
+                </svg>
+            </div>
+            <ul class="birds-choose">
+                <li class="list-item" data-bird="solovey">Соловей</li>
+                <li class="list-item" data-bird="drozd">Дрозд</li>
+                <li class="list-item" data-bird="forest">Малиновка</li>
+                <li class="list-item" data-bird="javoronok">Жаворонок</li>
+                <li class="list-item" data-bird="slavka">Славка</li>
+            </ul>
+        </div>
+    </header>
+    <section class="section">
+        <svg class="play-button">
+            <use xlink:href="./assets/svg/sprite.svg#play"></use>
+        </svg>
+        <svg class="pause-button">
+            <use xlink:href="./assets/svg/sprite.svg#pause"></use>
+        </svg>
+
+        
+    </section>
+    <audio src="./assets/audio/zarynka.mp3"></audio>
+<!--     <button class='play'>Play</button>
+    <button class='pause'>Pause</button> -->
+
+    <footer>
+        <div class="wrapper footer">
+            <div class="footer-content">
+                <span class="footer-item">&#169</span>
+                <span class="footer-item">2022</span>
+                <span class="footer-item">
+                    <a href="https://github.com/aliaksandrf">github</a>
+                </span>
+            </div>
+            <div>
+                <a href="https://rs.school/js-stage0/">
+                    <svg class="footer-icon">
+                        <use xlink:href="./assets/svg/sprite.svg#rss"></use>
+                      </svg>
+                </a>
+            </div>
+        </div>
+        </footer>
+
+        <script src="./index.js"></script>
+    
+</body>
+</html>
